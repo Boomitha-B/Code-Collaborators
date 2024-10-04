@@ -24,3 +24,42 @@
     }
   }
   
+
+{
+  "responseId": "18d26a1b-a6c2-4862-be13-c8519a6a64ef-d673503e",
+  "queryResult": {
+    "queryText": "HEALTH POLICIES",
+    "parameters": {
+      "geo-state": ""
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Alright!! I can guide you with the health policies",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Alright!! I can guide you with the health policies"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/planfinder-niad/agent/sessions/22f9c117-6d4e-422e-c94c-852d5d97adbe/contexts/_system_counters_",
+        "lifespanCount": 1,
+        "parameters": {
+          "no-match": 0,
+          "geo-state.original": "",
+          "geo-state": "",
+          "no-input": 0
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/planfinder-niad/agent/intents/ba50d1da-403a-46b0-86f6-b0d7d573c1a7",
+      "displayName": "schemes"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  }
+}
